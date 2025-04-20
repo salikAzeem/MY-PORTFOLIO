@@ -6,24 +6,38 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 61px;
-  z-index: 2;
   margin: 0 10%;
+  z-index: 2;
 }
 
 .title {
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 34px;
+  font-weight: 700;
   text-decoration: none;
   color: var(--color-text);
+  letter-spacing: 1.5px;
+  transition: transform 0.3s ease;
 }
 
+.title:hover {
+  transform: scale(1.05);
+  color: #00ffff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
 
 .menuBtn {
   display: none;
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: var(--color-text);
+  cursor: pointer;
+  z-index: 4;
 }
 
 .menu {
   display: flex;
+  align-items: center;
 }
 
 .menuItems {
@@ -33,9 +47,31 @@
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 22px;
+  font-weight: 500;
   color: var(--color-text);
   text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.menuItems a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #00ffff;
+  transition: width 0.3s ease;
+}
+
+.menuItems a:hover {
+  color: #00ffff;
+}
+
+.menuItems a:hover::after {
+  width: 100%;
 }
 
 @media screen and (max-width: 830px) {
@@ -46,17 +82,17 @@
 
   .menu {
     position: absolute;
+    top: 100%;
     right: 0;
     margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
-    gap: 11px;
     z-index: 3;
+    transition: all 0.3s ease;
   }
 
   .menuBtn {
     display: block;
-    cursor: pointer;
   }
 
   .menuItems {
@@ -64,19 +100,29 @@
     flex-direction: column;
     align-items: center;
     gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
+    border-radius: 15px;
     background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
+      135deg,
+      rgba(25, 55, 109, 0.9) 0%,
+      rgba(10, 25, 45, 1) 100%
     );
     padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    animation: slideDown 0.3s ease forwards;
   }
 
   .menuOpen {
     display: flex;
-    z-index: 1;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

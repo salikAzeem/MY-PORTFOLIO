@@ -1,0 +1,44 @@
+[
+  {
+    "title": "DSA self-paced Course",
+    "organisation": "GeeksforGeeks",
+    "date": "July, 2024",
+    "imageSrc": "certifications/DSA.jpg",
+    "url": "https://media.geeksforgeeks.org/courses/certificates/a5b6c71cfdb54e8ba3566fd9465b5d9b.pdf"
+  },
+  {
+    "title": "React Bootcamp",
+    "organisation": "Upgrade",
+    "date": "Feb, 2025",
+    "imageSrc": "certifications/React.jpg",
+    "url": "assets/certifications/React.pdf"
+  },
+  {
+    "title": "Cloud Computing",
+    "organisation": "NPTEL",
+    "date": "Jul-Oct, 2024",
+    "imageSrc": "certifications/cc.png",
+    "url": "assets/certifications/cc.pdf"
+  },
+  {
+    "title": "CTF Hackathon",
+    "organisation": "UpGrad Campus",
+    "date": "April, 2024",
+    "imageSrc": "certifications/hack.jpg",
+    "url": "assets/certifications/Hackathon salik.pdf"
+  },
+  {
+    "title": "SQL for DS",
+    "organisation": "Great Learning",
+    "date": "Feb, 2023",
+    "imageSrc": "certifications/mooc.jpg",
+    "url": "assets/certifications/mooc.pdf"
+  },
+  {
+    "title": "Programming in C++",
+    "organisation": "Coursera",
+    "date": "Mar, 2024",
+    "imageSrc": "certifications/cpp.jpg",
+    "url": "assets/certifications/cpp.pdf"
+  }
+]

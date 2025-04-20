@@ -1,26 +1,26 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Shoba-Cakes",
+      "imageSrc": "projects/shoba.png",
+      "description": "Designed and developed a fully functional bakery website for Shoba Cakes, enabling customers to order online, improving user navigation speed by 30%.",
+      "skills": ["React", "HTML", "CSS", "Javascript"],
+      "demo": "https://shobacakes.netlify.app/",
+      "source": "https://github.com/salikAzeem/Shoba-Cakes"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Shoes-Carnival",
+      "imageSrc": "projects/shoes.png",
+      "description": "For each one of those shoe sweethearts out there, ‘ShoesStore’ offer the one-stop goal to pick the correct match of footwear all inside a couple of snaps.",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "demo": "https://shoescarnival.netlify.app/",
+      "source": "https://github.com/salikAzeem/Shoes-Carnival"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Heart Disease Detection",
+      "imageSrc": "projects/heart.jpg",
+      "description": "Designed a heart disease diagnosis model using federated learning to achieve 85% to 90% accuracy for data visualization to visualize the result graphically",
+      "skills": ["Python", "ML", "Keras"],
+      "demo": "https://heartdetection.netlify.app/",
+      "source": "https://github.com/salikAzeem/Heart-Disease-Detection"
     }
   ]
